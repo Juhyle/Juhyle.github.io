@@ -7,3 +7,14 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@font-face {
+	font-family: 'Gowun Batang';
+	src: url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Gowun Batang';
+}
