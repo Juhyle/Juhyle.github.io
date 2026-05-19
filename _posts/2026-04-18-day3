@@ -1,11 +1,20 @@
 ---
 layout : single
-title: "목표"
-date: 2026-04-16
-categories: coding
+title: "사진첨부하기"
+date: 2026-04-18
+categories: Blog
 ---
 
-월드를 구성할것인데 목표는 바닷가. 흙을 깔고 물을 만들어보자.
-material을 만들어보려했는데 어렵다.
-water plugin을 이용해보자
-water plugin으로 마무리
+#목표 : Github 블로그에 사진 넣기
+
+앞으로 블로그를 작성해 나가려면 사진과 영상을 활용하는 일이 필수적입니다. 이번에는 사진과 영상을 글에 삽입하는 방법을 익혀보겠습니다.
+
+###블로그 마스코트로 사용했던 오렌지 그림을 글에 가져와 보겠습니다.
+
+![오렌지 그림](/assets/images/orangeee.png)
+
+###이제 그림의 크기를 변경해보겠습니다
+img src="/assets/images/orangeee.png" alt="오렌지 그림" width="500" 를 사용해줄건데 뒤의 숫자를 500과 300으로 적어 둘의 차이를 비교해보겠습니다.
+
+<img src="/assets/images/orangeee.png" alt="오렌지 그림" width="500">
+<img src="/assets/images/orangeee.png" alt="오렌지 그림" width="300">
