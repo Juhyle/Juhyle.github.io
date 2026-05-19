@@ -1,8 +1,8 @@
 ---
 layout : single
-title: "시작해요언리얼2026 Day1"
+title: "[2026]시작해요언리얼 Day1"
 date: 2026-05-08
-categories: StartUnreal
+categories: 시작해요언리얼[2026]
 ---
 
 다른 이름으로 레벨 저장 : Ctrl+Alt+s
