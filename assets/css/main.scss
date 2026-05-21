@@ -5,14 +5,14 @@ search: false
 
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&family=IBM+Plex+Sans+KR&display=swap'); //font
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 //font
 body,
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Gowun Dodum', sans-serif;
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 //글씨색
