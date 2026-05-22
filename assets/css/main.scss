@@ -5,17 +5,28 @@ search: false
 
 @charset "utf-8";
 
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"); //font
+// Pretendard
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+// Gowun Batang
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-//font
+// 전체 글씨체
 body,
 h1, h2, h3, h4, h5, h6,
 .archive__item-title,
 .page__title {
-  font-family: 'Paperlogy', sans-serif;
+  font-family: 'Pretendard', sans-serif !important;
 }
+
+// 블로그 맨 위 제목/이름
+.site-title {
+  font-family: 'Gowun Batang', serif !important;
+}
+
 
 //글씨색
 .em-red {
