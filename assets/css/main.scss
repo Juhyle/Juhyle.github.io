@@ -48,7 +48,12 @@ h1, h2, h3, h4, h5, h6,
   font-size: 0.95rem;
 }
 
-//본문넓이
-.post, .post-content {
-    max-width: 2000px !important;
+/* 메인 화면은 두고, 오직 블로그 글(포스트) 페이지의 본문만 넓히기 */
+.post .container-lg, 
+.post .wrapper,
+.post .post-content,
+article .container-lg,
+article .markdown-body {
+    max-width: 1050px !important;
+    width: 100% !important;
 }
