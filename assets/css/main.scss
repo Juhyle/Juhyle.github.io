@@ -48,25 +48,7 @@ h1, h2, h3, h4, h5, h6,
   font-size: 0.95rem;
 }
 
-/* 메인 화면은 두고, 오직 블로그 글(포스트) 페이지의 본문만 넓히기
-.post .container-lg, 
-.post .wrapper,
-.post .post-content,
-article .container-lg,
-article .markdown-body {
-    max-width: 1050px !important;
-    width: 100% !important;
-}/
-
-/* 글 본문은 적당히 넓히기 (1100px) */
-.post .container-lg, .post .wrapper, article .container-lg {
-    max-width: 1100px !important;
-}
-
-/* 본문 안의 사진(img)과 이미지 태그만 화면에 꽉 차게 확장 */
-.post-content img, .markdown-body img, .post-content p img {
-    max-width: 100% !important;
-    width: 100% !important;
-    display: block;
-    margin: 20px auto; /* 사진 위아래 적당한 간격 */
+//본문넓히기
+.page__inner-wrap {
+  max-width: 1600px !important;
 }
